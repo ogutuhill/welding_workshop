@@ -1,0 +1,76 @@
+{
+    "services": [
+        {
+            "name": "Custom Welding",
+            "description": "Tailor-made welding solutions for unique projects or specific customer requirements."
+        },
+        {
+            "name": "Metal Fabrication",
+            "description": "Design and fabrication of custom metal parts and structures, including sheet metal work."
+        },
+        {
+            "name": "Structural Welding",
+            "description": "Welding services for structural frameworks like buildings, bridges, and support systems."
+        },
+        {
+            "name": "Repair Services",
+            "description": "Repair and maintenance of damaged metal parts, tools, and industrial equipment."
+        },
+        {
+            "name": "On-Site Welding",
+            "description": "Mobile welding services for projects at the customer's location, ideal for large or immovable structures."
+        },
+        {
+            "name": "Aluminum and Stainless Steel Welding",
+            "description": "Specialized welding for non-ferrous metals like aluminum and stainless steel."
+        },
+        {
+            "name": "Automotive Welding",
+            "description": "Repairs for vehicle frames, exhaust systems, trailers, and custom modifications."
+        },
+        {
+            "name": "Pipe and Tube Welding",
+            "description": "High-quality welding for industrial pipelines and tubing systems, including plumbing and HVAC."
+        },
+        {
+            "name": "Heavy Equipment Welding",
+            "description": "Repairs for heavy equipment used in construction, agriculture, and mining."
+        },
+        {
+            "name": "Metal Cutting and Assembly",
+            "description": "Precision cutting and assembly of metal parts using plasma or laser cutting techniques."
+        },
+        {
+            "name": "Fencing and Gate Fabrication",
+            "description": "Design and fabrication of metal fences, gates, and security barriers."
+        },
+        {
+            "name": "Tank and Container Welding",
+            "description": "Fabrication of storage tanks, containers, and pressure vessels."
+        },
+        {
+            "name": "Furniture Fabrication",
+            "description": "Custom design and construction of metal furniture, including tables, chairs, and frames."
+        },
+        {
+            "name": "Safety Railings and Balustrades",
+            "description": "Fabrication and installation of metal railings, staircases, and balustrades."
+        },
+        {
+            "name": "Welding Training",
+            "description": "Offering training programs and workshops for aspiring welders."
+        },
+        {
+            "name": "Prototype Development",
+            "description": "Welding and assembly of prototypes for new products or designs."
+        },
+        {
+            "name": "Agricultural Welding",
+            "description": "Repairs for farming equipment, such as tractors and plows, and fabrication of components."
+        },
+        {
+            "name": "Recycling and Scrap Metal Welding",
+            "description": "Creating new products from recycled metal materials and refurbishing used components."
+        }
+    ]
+}

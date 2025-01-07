@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "name": "Welding Machines",
+            "description": "Durable and high-performance welding machines for all types of welding tasks.",
+            "image": "assets/images/welding-machine.jpg",
+            "link": "product-details.html"
+        },
+        {
+            "name": "Welding Rods",
+            "description": "Reliable welding rods for precise and strong welds.",
+            "image": "assets/images/welding-rods.jpg",
+            "link": "product-details.html"
+        },
+        {
+            "name": "Safety Gear",
+            "description": "Essential safety equipment including helmets, gloves, and jackets.",
+            "image": "assets/images/safety-gear.jpg",
+            "link": "product-details.html"
+        },
+        {
+            "name": "Fabrication Tools",
+            "description": "Precision tools to support your welding and metal fabrication projects.",
+            "image": "assets/images/fabrication-tools.jpg",
+            "link": "product-details.html"
+        }
+    ]
+}

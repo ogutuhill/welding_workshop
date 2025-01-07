@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore high-quality welding products from Adika Welding and Fabrication. Tools, materials, and safety gear for all your welding needs.">
+    <meta name="keywords" content="Welding, Products, Tools, Fabrication, Safety Gear, Siaya, Kenya">
+    <title>Welding Products | Adika Welding and Fabrication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo-png.png" alt="Adika Welding and Fabrication">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Top-Quality Welding Products</h1>
+            <p>Your one-stop shop for tools, materials, and safety gear.</p>
+            <a href="#products" class="btn">Explore Our Products</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Welding Products</h2>
+            <p>We offer a wide range of welding products to meet your needs, from beginner to professional.</p>
+            <div id="product-grid" class="product-grid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Need help choosing the right product? Contact our team for expert advice.</p>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> <a href="tel:+254798718252">+254 798 718 252</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@adika-welding.co.ke">info@adika-welding.co.ke</a></p>
+                <p><strong>Address:</strong> Ugunja, Siaya, Kenya</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Adika Welding and Fabrication. All Rights Reserved.</p>
+            <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Fetch products from the JSON file
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                const productGrid = document.getElementById('product-grid');
+                data.products.forEach(product => {
+                    const productItem = document.createElement('div');
+                    productItem.classList.add('product-item');
+                    productItem.innerHTML = `
+                        <img src="${product.image}" alt="${product.name}">
+                        <h3>${product.name}</h3>
+                        <p>${product.description}</p>
+                        <a href="${product.link}" class="btn">View Details</a>
+                    `;
+                    productGrid.appendChild(productItem);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching products:', error);
+            });
+    </script>
+</body>
+
+</html>
