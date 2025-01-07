@@ -17,6 +17,11 @@
         <div class="logo">
             <img src="assets/images/logo-transparent-png.png" alt="Adika Welding and Fabrication">
         </div>
+        <div class="mobile-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -90,6 +95,13 @@
             </div>
         </div>
     </footer>
+     <!-- JavaScript -->
+     <script>
+        function toggleMenu() {
+            const nav = document.querySelector("nav");
+            nav.classList.toggle("active");
+        }
+    </script>
 <script src="script.js"></script>
 </body>
 
